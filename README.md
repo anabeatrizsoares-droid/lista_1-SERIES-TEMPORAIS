@@ -1,0 +1,1 @@
+# lista_1-SERIES-TEMPORAIS
