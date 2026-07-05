@@ -16,8 +16,7 @@ library(tsibble)
 
 
 ### Carregando banco de dados em formato csv
-diretorio <- "C:\\Users\\usuario\\Documents\\lista_1\\dados\\DailyDelhiClimateTrain.csv"
-df_cli <- read_csv(diretorio)
+df_cli <- read_csv(unz(caminho_zip, "DailyDelhiClimateTrain.csv"))
 head(df_cli)
 
 #================================================================
@@ -224,9 +223,8 @@ serie_tri %>%
 
 #### Conclui-se que as séries climáticas dos dados são caracterizadas por forte sazonalidade aditiva anual e ausência de tendência no curto prazo, sendo o comportamento governado principalmente pelo ciclo climático regional.
 
-#  Perguntar 2) Dados do COVID. 
-diretorio <- "C:\\Users\\usuario\\Documents\\lista_1\\dados\\vaccinations.csv"
-df_covid <- read_csv(diretorio)
+#  Perguntar 2) Dados do COVID.
+df_covid <- read_csv(unz(caminho_(1)zip, "vaccinations.csv"))
 head(df_covid)
  
 
@@ -285,8 +283,7 @@ for(var in c("new_cases", "new_deaths")){ # total_cases não decompõe, é acumu
 
 # Perguntar 3) Dados do Desmatamento.
 
-diretorio <- "C:\\Users\\usuario\\Documents\\lista_1\\dados\\desmatamento_prodes.csv"
-df_desmat <- read_csv(diretorio)
+df_desmat <- read_csv(unz(caminho_(2)zip, "desmatamento_prodes.csv"))
 head(df_desmat)
  
 # [a] Gráficos para cada estado
