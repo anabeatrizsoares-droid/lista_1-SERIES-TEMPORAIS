@@ -194,7 +194,7 @@ Inicialmente os dados foram organizados do formato largo para o formato longo e 
 Em seguida foi realizada a análise exploratória da série através do gráfico da série temporal, da função de autocorrelação - ACF, da função de autocorrelação parcial - PACF e da Decomposição Clássica Aditiva para verificação de tendência.
 
 
-Posteriormente, os modelos SES, Holt e Holt Amortecido foram estimados com os dados de treino. Foram geradas previsões para 3 horizontes: h = 2 anos (2026-2027), h = 6 anos (2026-2031) e h = 10 anos(2026-2035). 
+Posteriormente, os modelos SES, Holt e Holt Amortecido foram estimados com os dados de treino. Foram geradas previsões para 3 horizontes: h = 2 anos (2026-2027) e h = 6 anos (2026-2031) . 
 
 Foi selecionado o melhor modelo com base nas medidas de acurácia e gerada a previsão final com toda a base de dados.
 
